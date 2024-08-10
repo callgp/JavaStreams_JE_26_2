@@ -22,8 +22,6 @@ public class ArrayListWithStream {
 		// }
 		// }
 
-		//List<Integer> l2 = l1.stream().filter(i -> i % 2 == 0).collect(Collectors.toList());
-		
 		List<Integer> l2 = l1.stream().filter(i -> i % 2 == 0).collect(Collectors.toList());
 
 		System.out.println(l2);
